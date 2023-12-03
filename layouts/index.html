@@ -28,7 +28,7 @@
         <div class="row">
             <!-- Image Column -->
             <div class="col-lg-6">
-                <img src="{{ .Params.slide_image }}" alt="Image description" class="img-fluid">
+                <img src="{{ .Params.slide_image | absURL }}" alt="Image description" class="img-fluid">
             </div>
 
             <!-- New Textual Description -->
