@@ -1,7 +1,7 @@
 ---
 title: "Home"
 date: 2023-11-30
-banner_image: "/images/rhizo1.gif"
+banner_image: "images/rhizo1.gif"
 banner_title: "Welcome to the Minirhizotron Facility"
 banner_subtitle: "Selhausen, Germany"
 minirisotron_researcher_image: "/images/felix.gif"
