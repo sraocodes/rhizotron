@@ -1,14 +1,14 @@
 ---
 title: "Startseite"
 date: 2023-11-30
-banner_image: "/images/rhizo1.gif"
+banner_image: "images/rhizo1.gif"
 banner_title: "Willkommen in der Minirhizotron-Anlage"
 banner_subtitle: "Selhausen, Deutschland"
-minirisotron_researcher_image: "/images/felix.gif"
+minirisotron_researcher_image: "images/felix.gif"
 minirisotron_description: |
     Die Minirhizotron-Anlage, Teil des [Forschungszentrums Jülich](https://www.fz-juelich.de) Instituts für Bio- und Geowissenschaften Agrosphäre (IBG-3) und des Projekts [phenorob CP3](https://www.phenorob.de/cp-3-the-soil-root-zone/), konzentriert sich auf Boden-Pflanzen-Interaktionen und nachhaltige Landwirtschaft. Mit fortschrittlichen Minirhizotron-Installationen und verschiedenen Bodentypen bietet die Einrichtung Einblicke in die Wurzelentwicklung und ihre Reaktion auf Umweltfaktoren. Die Forschung hier befasst sich mit aktuellen landwirtschaftlichen Herausforderungen, einschließlich des Klimawandels und der Reduzierung des Düngereinsatzes, im Einklang mit der EU-Strategie vom Hof auf den Tisch. Durch detaillierte Studien und globalen Datenaustausch über das [TERENO Data Discovery Portal](https://doi.org/10.34731/cg3t-nb88) trägt sie zur Verbesserung der Pflanzenproduktion und zum Verständnis des Pflanzenwachstums unter verschiedenen Bedingungen bei.
 
-slide_image: "/images/about.gif"
+slide_image: "images/about.gif"
 new_section_description: |
     Die Minirhizotron-Anlage in Selhausen, eine von nur zwei in Europa, bietet einen einzigartigen und aufschlussreichen Einblick in die oft unsichtbare Welt der Wurzeln und des Bodens. Diese Einrichtung kann kritische Daten sammeln, die benötigt werden, um unser Verständnis davon zu verbessern, wie Pflanzen in landwirtschaftlichen Umgebungen reagieren:
     
@@ -29,13 +29,13 @@ contact_info: |
   52428 Jülich
 publications:
   - title: "Zur Publikation"
-    image: "/images/p1.jpg"
+    image: "images/p1.jpg"
     url: "http://linktopublication1.com"
   - title: "Zur Publikation"
-    image: "/images/p2.jpg"
+    image: "images/p2.jpg"
     url: "http://linktopublication2.com"
   - title: "Zur Publikation"
-    image: "/images/p3.jpg"
+    image: "images/p3.jpg"
     url: "http://linktopublication3.com"
 
 ---
