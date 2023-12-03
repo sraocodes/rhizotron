@@ -1,0 +1,6 @@
+menu:
+  - name: "Home"
+    url: "/"
+  - name: "contact"
+    url: "/contact/"
+  # You can add more menu items as needed

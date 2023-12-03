@@ -1,0 +1,53 @@
+/* Navbar Styling */
+.navbar {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: 20; /* Ensure it's above the banner */
+}
+
+/* Custom Carousel Control Styling */
+.custom-control {
+  background-color: transparent;
+  border: none;
+  width: 30px; /* Adjust width as needed */
+  height: 30px; /* Adjust height as needed */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+  left: -50px;
+}
+
+.carousel-control-next {
+  right: 50px;
+}
+
+/* Carousel Control Icons (Previous and Next) */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: none; /* Hide default icons */
+}
+
+/* Font Awesome Icon Styling */
+.fas {
+  color: rgb(184, 184, 184); /* Icon color */
+  font-size: 50px; /* Icon size */
+}
+
+/* Carousel Caption Styling */
+.carousel-caption {
+  position: absolute;
+  bottom: 0; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  color: white;
+  background-color: transparent; /* Transparent background */
+}
+
+.slide-title {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,51 @@
+{{ define "main" }}
+    <article id="contact-article" class="container mt-5">
+        <h1>{{ .Title }}</h1>
+        <div class="row">
+            <!-- Image Column -->
+            <div class="col-lg-6">
+                <img src="{{ .Params.image }}" alt="Image description" class="img-fluid">
+            </div>
+
+            <!-- Contact Info Column -->
+            <div class="col-lg-6">
+                <div class="contact-section border p-3 rounded">
+                    <h2>Address</h2>
+                    <pre class="address-pre" style="font-size: 50%;">{{ .Params.contact | markdownify }}</pre>
+                </div>
+            </div>
+        </div>
+
+        <!-- Divider Line -->
+        <div style="height: 2px; background-color: #333; margin: 20px 0;"></div>
+
+        <!-- New Carousel for Publications -->
+        <div class="carousel-container" style="width: 75%; margin: auto;">
+          <h3 class="carousel-title">Our Publications</h3> 
+          <div id="publicationsCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                  {{ range $index, $element := .Params.publications }}
+                  <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
+                      <img src="{{ $element.image }}" class="d-block w-100" alt="{{ $element.title }}">
+                      <div class="carousel-caption">
+                        <h5><a href="{{ $element.url }}" target="_blank">{{ $element.title }}</a></h5>
+                      </div>
+                    
+                  </div>
+                  {{ end }}
+              </div>
+              <!-- Controls with Padding -->
+              <button class="carousel-control-prev custom-control" type="button" data-target="#publicationsCarousel" data-slide="prev">
+                <span class="fas fa-arrow-left"></span> <!-- Font Awesome Left Arrow -->
+              </button>
+              <button class="carousel-control-next custom-control" type="button" data-target="#publicationsCarousel" data-slide="next">
+                  <span class="fas fa-arrow-right"></span> <!-- Font Awesome Right Arrow -->
+              </button>
+            
+            
+          </div>
+        </div>
+
+
+    </article>
+{{ end }}

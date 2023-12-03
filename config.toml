@@ -1,0 +1,13 @@
+baseURL = "https://sraocodes.github.io/rhizotron/"
+languageCode = "en-us"
+
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
+contentDir = "content/en"
+
+[languages.de]
+languageName = "Deutsch"
+weight = 2
+contentDir = "content/de"

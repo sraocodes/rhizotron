@@ -1,0 +1,18 @@
+{{ define "main" }}
+    <article id="single-article" class="container mt-5">
+        <h1>{{ .Title }}</h1>
+        <div class="row">
+            <!-- Image Column -->
+            <div class="col-lg-6">
+                <img src="{{ .Params.image }}" alt="Image description" class="img-fluid">
+            </div>
+
+            <!-- Text Column -->
+            <div class="col-lg-6">
+                {{ .Content }}
+            </div>
+        </div>
+    </article>
+{{ end }}
+
+
