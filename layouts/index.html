@@ -5,8 +5,8 @@
             <h1>{{ .Params.banner_title }}</h1>
             <h2>{{ .Params.banner_subtitle }}</h2>
         </div>
-        <img src="{{ .Params.banner_image }}" alt="Banner" class="img-fluid">
-    </div>
+        <img src="{{ .Params.banner_image | absURL }}" alt="Banner" class="img-fluid">
+   </div>
 
     <!-- MiniRisotron Facility Section -->
     <div class="container mt-5">
