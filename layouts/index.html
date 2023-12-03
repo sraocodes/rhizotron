@@ -18,7 +18,7 @@
             
             <!-- Image of a Researcher -->
             <div class="col-lg-4">
-                <img src="{{ .Params.minirisotron_researcher_image }}" alt="Researcher at MiniRisotron" class="img-fluid">
+                <img src="{{ .Params.minirisotron_researcher_image | absURL}}" alt="Researcher at MiniRisotron" class="img-fluid">
                 <figcaption>Image courtesy Felix Bauer</figcaption> <!-- Replace with your caption -->
             </div>
         </div>
@@ -50,7 +50,7 @@
             <div class="carousel-inner">
                 {{ range $index, $element := .Params.publications }}
                 <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
-                    <img src="{{ $element.image }}" class="d-block w-100" alt="{{ $element.title }}">
+                    <img src="{{ $element.image | absURL}}" class="d-block w-100" alt="{{ $element.title }}">
                     <div class="carousel-caption">
                         <h5><a href="{{ $element.url }}" target="_blank">{{ $element.title }}</a></h5>
                     </div>
